@@ -50,10 +50,10 @@ const Header = () => {
                     <NavLink to='dogs'>Find A Buddy</NavLink>
                   </li>
                   <li className="nav_item">
-                    <NavLink to='dogs'>Get Involved</NavLink>
+                    <NavLink to='involvement'>Get Involved</NavLink>
                   </li>
                   <li className="nav_item">
-                    <NavLink to='dogs'>Contact us</NavLink>
+                    <NavLink to='contact'>Contact us</NavLink>
                   </li>
                 </ul>
               </div>

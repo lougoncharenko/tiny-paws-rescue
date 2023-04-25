@@ -15,10 +15,10 @@ const MobileLinks = () => {
                 <NavLink to='/dogs'>Find A buddy</NavLink>
               </li>
               <li className="nav_item" aria-describedby="nav_item">
-                <NavLink to='/dogs'>Get Involved</NavLink>
+                <NavLink to='/involvement'>Get Involved</NavLink>
               </li>
               <li className="nav_item" aria-describedby="nav_item">
-                <NavLink to='/dogs'>Contact Us</NavLink>
+                <NavLink to='/contact'>Contact Us</NavLink>
               </li>
             </ul>
         </section>  
