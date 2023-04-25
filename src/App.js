@@ -1,12 +1,16 @@
 import './App.css';
 import Routers from './routes/Routers';
+import { AppProvider } from '@shopify/polaris';
+import translations from '@shopify/polaris/locales/en.json';
+import '@shopify/polaris/build/esm/styles.css';
+import Header from './components/Header/Header';
 
 function App() {
   return (
-    <>
-   <h1>Tiny Paws rescue</h1>
+    <AppProvider i18n={translations}>
+    <Header />
    <Routers />
-    </>
+    </AppProvider>
   );
 }
 
