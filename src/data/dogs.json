@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Buddy",
+        "image": "https://www.example.com/images/buddy.jpg",
+        "breed": "Golden Retriever",
+        "color": "Golden",
+        "age": 3,
+        "description": "Buddy is a friendly, outgoing dog who loves to play fetch and go for walks. He gets along well with children and other dogs."
+     },
+     {
+        "id": 2,
+        "name": "Lucy",
+        "image": "https://www.example.com/images/lucy.jpg",
+        "breed": "Labrador Retriever",
+        "color": "Black",
+        "age": 2,
+        "description": "Lucy is a sweet and gentle dog who loves nothing more than snuggling up on the couch with her humans. She is good with children and other pets."
+     },
+     {
+        "id": 3,
+        "name": "Max",
+        "image": "https://www.example.com/images/max.jpg",
+        "breed": "German Shepherd",
+        "color": "Black and Tan",
+        "age": 4,
+        "description": "Max is a loyal and protective dog who loves his family deeply. He is intelligent and trainable, and gets along well with older children and adults."
+     },
+     {
+        "id": 4,
+        "name": "Charlie",
+        "image": "https://www.example.com/images/charlie.jpg",
+        "breed": "Beagle",
+        "color": "Tricolor",
+        "age": 1,
+        "description": "Charlie is an energetic and curious dog who loves to explore his surroundings. He is good with children and other dogs, and is always up for a game of fetch."
+     },
+     {
+        "id": 5,
+        "name": "Bailey",
+        "image": "https://www.example.com/images/bailey.jpg",
+        "breed": "Cocker Spaniel",
+        "color": "Buff",
+        "age": 6,
+        "description": "Bailey is a sweet and affectionate dog who loves nothing more than snuggling up with her humans. She is good with children and other pets."
+     },
+     {
+        "id": 6,
+        "name": "Rocky",
+        "image": "https://www.example.com/images/rocky.jpg",
+        "breed": "Boxer",
+        "color": "Fawn",
+        "age": 3,
+        "description": "Rocky is a playful and energetic dog who loves to run and play. He is good with older children and adults, and would do well in an active home."
+     }, 
+     {
+        "id": 7,
+        "name": "Lola",
+        "image": "https://www.example.com/images/lola.jpg",
+        "breed": "French Bulldog",
+        "color": "Brindle",
+        "age": 2,
+        "description": "Lola is a charming and affectionate dog who loves to cuddle with her humans. She is good with children and other pets, and is always up for a game of fetch."
+     },
+     {
+        "id": 8,
+        "name": "Sadie",
+        "image": "https://images.dog.ceo/breeds/husky/n02110185_6718.jpg",
+        "breed": "Siberian Husky",
+        "color": "White",
+        "age": 4,
+        "description": "Sadie is a beautiful and intelligent Siberian Husky. She loves to play and go for hikes."
+    },
+    {
+        "id": 9,
+        "name": "Charlie",
+        "image": "https://images.dog.ceo/breeds/bullterrier-staffordshire/n02093256_8537.jpg",
+        "breed": "Staffordshire Bull Terrier",
+        "color": "Blue",
+        "age": 2,
+        "description": "Charlie is a friendly and loving Staffordshire Bull Terrier. He enjoys cuddling and playing fetch."
+   },
+   {
+        "id": 10,
+        "name": "Bentley",
+        "image": "https://images.dog.ceo/breeds/terrier-australian/n02096294_6511.jpg",
+        "breed": "Australian Terrier",
+        "color": "Tan",
+        "age": 3,
+        "description": "Bentley is a loyal and intelligent Australian Terrier. He loves to go on adventures and explore."
+   },
+   {
+        "id": 11,
+        "name": "Luna",
+        "image": "https://images.dog.ceo/breeds/boxer/n02108089_334.jpg",
+        "breed": "Boxer",
+        "color": "Brindle",
+        "age": 7,
+        "description": "Luna is a sweet and energetic Boxer. She loves to play with other dogs and go for walks."
+   },
+   {
+        "id": 12,
+        "name": "Rocky",
+        "image": "https://images.dog.ceo/breeds/terrier-scottish/n02097298_5262.jpg",
+        "breed": "Scottish Terrier",
+        "color": "Black",
+        "age": 5,
+        "description": "Rocky is a brave and spirited Scottish Terrier. He loves to play fetch and go for runs."
+   }
+]

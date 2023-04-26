@@ -2,6 +2,7 @@ import React from 'react';
 import { Layout, AlphaCard, Grid } from '@shopify/polaris';
 import DogCard from '../DogCard/DogCard';
 //to do import dog data as products
+import data from '../../data/dogs.json'
 
 
 

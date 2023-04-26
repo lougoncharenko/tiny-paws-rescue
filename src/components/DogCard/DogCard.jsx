@@ -1,5 +1,5 @@
 import React from 'react';
-import { AlphaCard, Button, VerticalStack, Image, Text, TextField } from '@shopify/polaris';
+import { AlphaCard, Button, VerticalStack, Text, TextField } from '@shopify/polaris';
 import { Link } from 'react-router-dom';
 
 const DogCard = ({dog}) => {
@@ -17,27 +17,18 @@ const DogCard = ({dog}) => {
         }}
         src={dog.image}
       />
-    <Text as="h2" variant="headingMd" alignment='start'>
+    <Text as="h2" variant="headingMd" alignment='center'>
     {dog.name}
     </Text>
     <Text as="h2" variant="bodyLg" fontWeight='bold' alignment='center'>
-    ${dog.breed}
+    {dog.breed}
     </Text>
     <VerticalStack gap="5">
-             <TextField
-              label="Quantity"
-              type="number"
-              value={quantity}
-              onChange={handleQuantityChange}
-              autoComplete="off"
-            />
-          <Link to= {`/products/${product.id}`}>
-           <Button
-          onClick={ handleClick }
-          plain>View Full Details</Button>
-          </Link>
-
-          </VerticalStack>
+      <Button
+      plain>
+        View Full Details
+      </Button>
+    </VerticalStack>
 
     </AlphaCard>
   );
