@@ -1,8 +1,10 @@
 import React from 'react';
+import TeamSection from '../components/Team/Team';
 
 const About = () => {
   return (
     <>
+    <TeamSection />
     <div>
       About our company:
     </div>
