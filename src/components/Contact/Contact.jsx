@@ -1,13 +1,20 @@
 import React from "react"; 
 import { Container, Row, Col } from "react-bootstrap";
+import {  toast } from 'react-toastify';
 import { contactConfig } from "../ContactInfo/ContactInfo";
 
 export default function ContactUs() {
-  
+  const handleRefresh = () => {
+    window.location.reload();
+  }
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    toast.success('Form submitted successfully');
+    setTimeout(handleRefresh, 3050);
+  }
 
   return (
       <Container>
-     
         <Row className="mb-5 mt-3">
           <Col lg="8">
             <h1 className="display-4 mb-4">Contact Our Organization</h1>
@@ -45,7 +52,9 @@ export default function ContactUs() {
             <p>{contactConfig.description}</p>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
-            <form  className="contact__form w-100">
+            <form  
+            onSubmit={handleSubmit}
+            className="contact__form w-100">
               <Row>
                 <Col lg="6" className="form-group">
                   <input
