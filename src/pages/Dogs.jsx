@@ -1,11 +1,22 @@
 import React from 'react';
-import DogContainer from '../components/DogContainer/DogContainer';
+import { Container, Row , Col} from 'reactstrap';
+import DogCardContainer from '../components/CardContainer/DogCardContainer';
 
 const Dogs = () => {
   return (
-    <div>
-      <DogContainer />
-    </div>
+    <section>
+    <Container>
+      <Row
+      style ={{
+        display: "flex",
+
+      }}>
+        <Col> <DogCardContainer />
+        </Col>
+       
+      </Row>
+    </Container>
+  </section>
   );
 }
 

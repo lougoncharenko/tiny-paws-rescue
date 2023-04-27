@@ -1,9 +1,16 @@
 import React from 'react';
 import { NavLink} from 'react-router-dom';
 
+
 const MobileLinks = () => {
     return (
-        <section className="mobile_container_nav_links" role="navigation" aria-describedby="mobile_container_nav_links">
+        <section 
+        style ={{
+          marginTop: "-200px"
+          
+        }}
+        className="mobile_container_nav_links" 
+        aria-describedby="mobile_container_nav_links">
         <ul>
               <li className="nav_item" aria-describedby="nav_item">
                 <NavLink to='/'>Home</NavLink>

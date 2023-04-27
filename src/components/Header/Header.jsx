@@ -3,13 +3,42 @@ import { NavLink} from 'react-router-dom';
 import './Header.css'
 import {Container, Row} from 'reactstrap'
 import logo from '../../assets/logo.png'
-import MobileLinks from '../MobileLinks/MobileLinks';
+
 
 
 const Header = () => {
   const [showMobileLinks, setShowMobileLinks] = useState(false);
   const handleMobileMenu = () => {setShowMobileLinks(!showMobileLinks)}
 
+  const MobileLinks = () => {
+    return (
+        <section 
+        style ={{
+          marginTop: "-200px",
+          
+        }}
+        className="mobile_container_nav_links" 
+        aria-describedby="mobile_container_nav_links">
+        <ul>
+              <li className="nav_item" aria-describedby="nav_item">
+                <NavLink to='/'>Home</NavLink>
+              </li>
+              <li className="nav_item" aria-describedby="nav_item">
+                <NavLink to='/about'>About us</NavLink>
+              </li>
+              <li className="nav_item" aria-describedby="nav_item">
+                <NavLink to='/dogs'>Find A buddy</NavLink>
+              </li>
+              <li className="nav_item" aria-describedby="nav_item">
+                <NavLink to='/involvement'>Get Involved</NavLink>
+              </li>
+              <li className="nav_item" aria-describedby="nav_item">
+                <NavLink to='/contact'>Contact Us</NavLink>
+              </li>
+            </ul>
+        </section>  
+    )
+}
   return (
     <header className='header'>
       <Container>
@@ -19,9 +48,10 @@ const Header = () => {
         <section className="mobile_container" role="navigation">
             <section className="mobile_menu_header">
             <section className='logo_headers'>
-            <img className="logo" src={logo} alt="logo" />
+            <img className="mobile_logo" src={logo} alt="logo" />
             </section>
             <svg 
+            className='mobile_svg'
             xmlns="http://www.w3.org/2000/svg" 
             viewBox="0 0 24 24" 
             width="24" 

@@ -44,6 +44,11 @@ justify-content: space-between;
     height: 40px;
 }
 
+.mobile_logo{
+    margin-top: -200px;
+    width: 150px;
+    height: 40px;
+}
 
 .logo h1{
     font-size: 1.2rem;
@@ -59,7 +64,7 @@ column-gap: 2.7rem;
 }
 
 svg {
-    margin-top: 10px;
+    margin-top: -50px;
 }
 
 .nav_item{
@@ -69,7 +74,7 @@ font-weight: 500;
 }
 
 .nav_item:hover{
-    color: rgb(67, 122, 199)
+    color: rgb(19, 52, 99)
 }
 
 
