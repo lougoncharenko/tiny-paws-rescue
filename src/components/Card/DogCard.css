@@ -4,7 +4,18 @@
     font-weight: 600;
     padding-bottom: 30px;
     }
-    
+ 
+.product_img{
+display:flex;
+justify-content: center;
+padding: 10px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
 .product_item{
     cursor: pointer;
 }

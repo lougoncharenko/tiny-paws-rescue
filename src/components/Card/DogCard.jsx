@@ -11,13 +11,17 @@ const DogCards = ({item}) => {
         style={{marginBottom: "25px"}}
         sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
           <div className="product_img">
-            <img src={item.image} alt="" />
+            <img 
+            src={item.image} alt="" />
           </div>
           <div className='p-2 product_info'>
             <h3 className="product_name">{item.name}</h3>
           </div>
           <div className='p-2 product_info'>
-            <h3 className="product_name">${item.age}</h3>
+            <h3 className="product_name">{item.age} years old</h3>
+          </div>
+          <div className='p-2 product_info'>
+            <h3 className="product_name">{item.breed}</h3>
           </div>
         </Card>
         </Col>

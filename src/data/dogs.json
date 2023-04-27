@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Buddy",
-        "image": "https://www.example.com/images/buddy.jpg",
+        "image": "https://www.lombardvet.com/sites/default/files/styles/large/public/golden-retriever-dog-breed-info_0.jpg?itok=sYARdO3q",
         "breed": "Golden Retriever",
         "color": "Golden",
         "age": 3,
@@ -11,7 +11,7 @@
      {
         "id": 2,
         "name": "Lucy",
-        "image": "https://www.example.com/images/lucy.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG0O4RGWstQvShhZNYPa9_hfsieSK0XlYQYw&usqp=CAU",
         "breed": "Labrador Retriever",
         "color": "Black",
         "age": 2,
@@ -20,7 +20,7 @@
      {
         "id": 3,
         "name": "Max",
-        "image": "https://www.example.com/images/max.jpg",
+        "image": "https://www.akc.org/wp-content/uploads/2016/06/German-Shepherd-Dog-laying-down-in-the-backyard-500x487.jpeg",
         "breed": "German Shepherd",
         "color": "Black and Tan",
         "age": 4,
@@ -29,7 +29,7 @@
      {
         "id": 4,
         "name": "Charlie",
-        "image": "https://www.example.com/images/charlie.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbGP8ZwlYAK51dYG9XBkmmVHeNjWPD_9cn3i7VBx5cW1VBOiE9jrD8GpSKa7Mi8l6P7Co&usqp=CAU",
         "breed": "Beagle",
         "color": "Tricolor",
         "age": 1,
@@ -38,7 +38,7 @@
      {
         "id": 5,
         "name": "Bailey",
-        "image": "https://www.example.com/images/bailey.jpg",
+        "image": "https://media-be.chewy.com/wp-content/uploads/2021/05/05180433/Cocker-Spaniel_FeaturedImage-1024x615.jpg",
         "breed": "Cocker Spaniel",
         "color": "Buff",
         "age": 6,
@@ -47,7 +47,7 @@
      {
         "id": 6,
         "name": "Rocky",
-        "image": "https://www.example.com/images/rocky.jpg",
+        "image": "https://media-be.chewy.com/wp-content/uploads/2021/04/16140537/Boxer_Feature-Image.jpg",
         "breed": "Boxer",
         "color": "Fawn",
         "age": 3,
@@ -56,16 +56,16 @@
      {
         "id": 7,
         "name": "Lola",
-        "image": "https://www.example.com/images/lola.jpg",
+        "image": "https://images.squarespace-cdn.com/content/v1/54e7a1a6e4b08db9da801ded/c2322dcd-5071-482d-a509-f32aab39258d/52.png",
         "breed": "French Bulldog",
-        "color": "Brindle",
+        "color": "grey and white",
         "age": 2,
         "description": "Lola is a charming and affectionate dog who loves to cuddle with her humans. She is good with children and other pets, and is always up for a game of fetch."
      },
      {
         "id": 8,
         "name": "Sadie",
-        "image": "https://images.dog.ceo/breeds/husky/n02110185_6718.jpg",
+        "image": "https://media-be.chewy.com/wp-content/uploads/2021/06/11142603/husky-dog-breed-1257560163-865x615.jpg",
         "breed": "Siberian Husky",
         "color": "White",
         "age": 4,
@@ -74,16 +74,16 @@
     {
         "id": 9,
         "name": "Charlie",
-        "image": "https://images.dog.ceo/breeds/bullterrier-staffordshire/n02093256_8537.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Staffie.jpg/640px-Staffie.jpg",
         "breed": "Staffordshire Bull Terrier",
-        "color": "Blue",
+        "color": "Tan",
         "age": 2,
         "description": "Charlie is a friendly and loving Staffordshire Bull Terrier. He enjoys cuddling and playing fetch."
    },
    {
         "id": 10,
         "name": "Bentley",
-        "image": "https://images.dog.ceo/breeds/terrier-australian/n02096294_6511.jpg",
+        "image": "https://www.akc.org/wp-content/uploads/2017/11/Australian-Terrier-History-06.jpg",
         "breed": "Australian Terrier",
         "color": "Tan",
         "age": 3,
@@ -92,19 +92,19 @@
    {
         "id": 11,
         "name": "Luna",
-        "image": "https://images.dog.ceo/breeds/boxer/n02108089_334.jpg",
-        "breed": "Boxer",
-        "color": "Brindle",
+        "image": "https://espree.com/sites/default/files/2019-10/Chihuahua.png",
+        "breed": "Chihuahua",
+        "color": "Tricolor",
         "age": 7,
-        "description": "Luna is a sweet and energetic Boxer. She loves to play with other dogs and go for walks."
+        "description": "Luna is a sweet and energetic Chihuahua. She loves to play with other dogs and go for walks."
    },
    {
         "id": 12,
         "name": "Rocky",
-        "image": "https://images.dog.ceo/breeds/terrier-scottish/n02097298_5262.jpg",
-        "breed": "Scottish Terrier",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Jack_Russell_Terrier_1.jpg",
+        "breed": "Jack Russell Terrier",
         "color": "Black",
         "age": 5,
-        "description": "Rocky is a brave and spirited Scottish Terrier. He loves to play fetch and go for runs."
+        "description": "Rocky is a brave and spirited Jack Russell Terrier. He loves to play fetch and go for runs."
    }
 ]
