@@ -1,0 +1,27 @@
+[
+    {
+      "icon": "ri-syringe-line",
+      "title": "Vaccinations",
+      "subtitle": "We provide vaccinations for every furry friend, no questions asked. ",
+      "bg": "#fdefe6"
+    },
+    {
+      "icon": "ri-store-2-line",
+      "title": "Pet Food",
+      "subtitle": "We provide dog food for every furry friend, no questions asked.",
+      "bg": "#ceebe9"
+    },
+    {
+      "icon": "ri-hospital-line",
+      "title": "Vet services",
+      "subtitle": "We provide spay and neuter for every furry friends that comes in",
+      "bg": "#e2f2b2"
+    },
+    {
+      "icon": "ri-heart-line",
+      "title": " Surrenders",
+      "subtitle": "We welcome all dog surrenders here with no questions asked",
+      "bg": "#d6e5fb"
+    }
+  ]
+  

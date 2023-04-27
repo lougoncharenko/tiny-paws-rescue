@@ -1,9 +1,10 @@
 import React from 'react';
+import VolunteerOpportunites from '../components/Involvement/Involvement';
 
 const Involvement = () => {
   return (
     <div>
-      Involvement
+      <VolunteerOpportunites/>
     </div>
   );
 }
