@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Buddy",
+    "image": "https://www.lombardvet.com/sites/default/files/styles/large/public/golden-retriever-dog-breed-info_0.jpg?itok=sYARdO3q",
+    "breed": "Golden Retriever",
+    "color": "Golden",
+    "age": 3,
+    "description": "Buddy is a friendly, outgoing dog who loves to play fetch and go for walks. He gets along well with children and other dogs."
+  },
+  {
+    "id": 2,
+    "name": "Lucy",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG0O4RGWstQvShhZNYPa9_hfsieSK0XlYQYw&usqp=CAU",
+    "breed": "Labrador Retriever",
+    "color": "Black",
+    "age": 2,
+    "description": "Lucy is a sweet and gentle dog who loves nothing more than snuggling up on the couch with her humans. She is good with children and other pets."
+  },
+  {
+    "id": 3,
+    "name": "Max",
+    "image": "https://www.akc.org/wp-content/uploads/2016/06/German-Shepherd-Dog-laying-down-in-the-backyard-500x487.jpeg",
+    "breed": "German Shepherd",
+    "color": "Black and Tan",
+    "age": 4,
+    "description": "Max is a loyal and protective dog who loves his family deeply. He is intelligent and trainable, and gets along well with older children and adults."
+  },
+  {
+    "id": 4,
+    "name": "Charlie",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbGP8ZwlYAK51dYG9XBkmmVHeNjWPD_9cn3i7VBx5cW1VBOiE9jrD8GpSKa7Mi8l6P7Co&usqp=CAU",
+    "breed": "Beagle",
+    "color": "Tricolor",
+    "age": 1,
+    "description": "Charlie is an energetic and curious dog who loves to explore his surroundings. He is good with children and other dogs, and is always up for a game of fetch."
+  }
+]

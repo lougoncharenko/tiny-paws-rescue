@@ -7,7 +7,7 @@ import { createTheme, ThemeProvider} from '@mui/material/styles';
 
 const theme = createTheme();
 
-function FeatureSection () {
+function BenefitSection () {
     return (
     <ThemeProvider theme={theme}>
     <section class="section-white">
@@ -98,4 +98,4 @@ function FeatureSection () {
     )
 }
 
-export default FeatureSection;
+export default BenefitSection;
