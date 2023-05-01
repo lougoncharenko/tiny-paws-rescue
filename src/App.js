@@ -11,7 +11,7 @@ function App() {
     <AppProvider i18n={translations}>
       <Header />
       <Routers />
-      <Footer/>
+      <Footer />
     </AppProvider>
   );
 }
