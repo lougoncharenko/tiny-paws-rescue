@@ -7,9 +7,23 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
+import Toolbar from '@mui/material/Toolbar';
 
 
-const theme = createTheme();
+const theme = createTheme({
+  components: {
+    // Name of the component
+    MuiToolbar: {
+      styleOverrides: {
+        // Name of the slot
+        root: {
+          // Some CSS
+          backgroundColor: '#8B4513'
+        },
+      },
+    },
+  },
+});
 
 export default function CompanyInfo() {
   return (
@@ -57,6 +71,7 @@ export default function CompanyInfo() {
         </Typography>
       </Container>
       </section>
+      <Toolbar></Toolbar>
     </ThemeProvider>
   );
 }

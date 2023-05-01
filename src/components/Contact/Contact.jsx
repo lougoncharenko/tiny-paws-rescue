@@ -2,6 +2,25 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {  toast } from 'react-toastify';
 import { contactConfig } from "../ContactInfo/ContactInfo";
+import AppBar from '@mui/material/AppBar';
+import CssBaseline from '@mui/material/CssBaseline';
+import Toolbar from '@mui/material/Toolbar';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+const theme = createTheme({
+  components: {
+    // Name of the component
+    MuiToolbar: {
+      styleOverrides: {
+        // Name of the slot
+        root: {
+          // Some CSS
+          backgroundColor: '#8B4513'
+        },
+      },
+    },
+  },
+});
 
 export default function ContactUs() {
   const handleRefresh = () => {
@@ -14,6 +33,12 @@ export default function ContactUs() {
   }
 
   return (
+    <ThemeProvider theme={theme}>
+    <CssBaseline />
+    <AppBar position="relative" color="primary">
+      <Toolbar>
+      </Toolbar>
+    </AppBar>
       <Container>
         <Row className="mb-5 mt-3">
           <Col lg="8">
@@ -104,5 +129,7 @@ export default function ContactUs() {
           </Col>
         </Row>
       </Container>
+      <Toolbar></Toolbar>
+      </ThemeProvider>
   );
 }

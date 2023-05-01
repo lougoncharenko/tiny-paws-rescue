@@ -12,6 +12,23 @@ import Typography from '@mui/material/Typography';
 import GlobalStyles from '@mui/material/GlobalStyles';
 import Container from '@mui/material/Container';
 import Toolbar from '@mui/material/Toolbar';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+const theme = createTheme({
+  components: {
+    // Name of the component
+    MuiToolbar: {
+      styleOverrides: {
+        // Name of the slot
+        root: {
+          // Some CSS
+          marginTop: '50px',
+          backgroundColor: '#8B4513'
+        },
+      },
+    },
+  },
+});
 
 const tiers = [
   {
@@ -47,6 +64,7 @@ const tiers = [
 
 const  Donate = ()  => {
   return (
+    <ThemeProvider theme={theme}>
     <React.Fragment>
       <GlobalStyles styles={{ ul: { margin: 0, padding: 0, listStyle: 'none' } }} />
       <CssBaseline />
@@ -58,7 +76,11 @@ const  Donate = ()  => {
       >
       </AppBar>
       {/* Hero unit */}
-      <Container disableGutters maxWidth="sm" component="main" sx={{ pt: 8, pb: 6 }}>
+      <Container 
+      disableGutters 
+      maxWidth="sm" 
+      component="main" 
+      sx={{ pt: 8, pb: 6 }}>
         <Typography
           component="h1"
           variant="h2"
@@ -140,6 +162,8 @@ const  Donate = ()  => {
         </Grid>
       </Container>
     </React.Fragment>
+    <Toolbar></Toolbar>
+    </ThemeProvider>
   );
 }
 
