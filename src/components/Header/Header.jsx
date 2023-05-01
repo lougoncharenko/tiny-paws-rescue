@@ -22,15 +22,15 @@ const Header = () => {
         <ul>
               <li className="nav_item" aria-describedby="nav_item">
                 <NavLink to='/'>Home</NavLink>
+              </li>   
+              <li className="nav_item" aria-describedby="nav_item">
+                <NavLink to='/dogs'>Find A buddy</NavLink>
+              </li> 
+               <li className="nav_item" aria-describedby="nav_item">
+                <NavLink to='/involvement'>Get Involved</NavLink>
               </li>
               <li className="nav_item" aria-describedby="nav_item">
                 <NavLink to='/about'>About us</NavLink>
-              </li>
-              <li className="nav_item" aria-describedby="nav_item">
-                <NavLink to='/dogs'>Find A buddy</NavLink>
-              </li>
-              <li className="nav_item" aria-describedby="nav_item">
-                <NavLink to='/involvement'>Get Involved</NavLink>
               </li>
               <li className="nav_item" aria-describedby="nav_item">
                 <NavLink to='/contact'>Contact Us</NavLink>
@@ -74,13 +74,13 @@ const Header = () => {
                     <NavLink to='home'>Home</NavLink>
                   </li>
                   <li className="nav_item">
-                    <NavLink to='about'>About our Company</NavLink>
-                  </li>
-                  <li className="nav_item">
                     <NavLink to='dogs'>Find A Buddy</NavLink>
                   </li>
                   <li className="nav_item">
                     <NavLink to='involvement'>Get Involved</NavLink>
+                  </li>
+                  <li className="nav_item">
+                    <NavLink to='about'>About our Company</NavLink>
                   </li>
                   <li className="nav_item">
                     <NavLink to='contact'>Contact us</NavLink>
