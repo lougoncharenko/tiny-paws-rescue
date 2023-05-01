@@ -5,7 +5,8 @@ const AboutCard = () => {
   return (
     <section
     style ={{
-      margin: '50px'
+      marginLeft: '70px',
+      marginRight: '70px'
     }}>
        <MediaCard
       title="Why adopt from Tiny Paws?"
