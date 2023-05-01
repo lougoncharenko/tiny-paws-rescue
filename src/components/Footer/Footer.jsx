@@ -8,7 +8,7 @@ function Copyright() {
     return (
       <Typography variant="body2" color="text.secondary" align="center">
         {'Copyright © '}
-        <Link color="inherit" href="https://mui.com/">
+        <Link color="inherit" href="/">
           Tiny Paws Rescue
         </Link>{' '}
         {new Date().getFullYear()}

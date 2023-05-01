@@ -1,13 +1,44 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Card from '@mui/material/Card';
+import Toolbar from '@mui/material/Toolbar';
+import { createTheme, ThemeProvider} from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
+
+const theme = createTheme({
+  components: {
+    // Name of the component
+    MuiToolbar: {
+      styleOverrides: {
+        // Name of the slot
+        root: {
+          // Some CSS
+          backgroundColor: '#8B4513'
+        },
+      },
+    },
+    MuiButton: {
+      styleOverrides: {
+        // Name of the slot
+        root: {
+          // Some CSS
+          backgroundColor: '#8B4513',
+          color: 'white'
+        },
+      },
+    },
+  },
+});
 
 function TeamSection () {
     let message = `Meet the amazing team that makes Tiny Paws Rescue the best place to work and adopt from.`;
     return (
+    <ThemeProvider theme={theme}>
+    <Toolbar>
+    </Toolbar>
     <section class="section-white">
       <Container>
+     
           <Row>
           <Typography style={{
             margin: "20px",
@@ -83,7 +114,7 @@ function TeamSection () {
           </Col> 
         </Row> 
       </Container> 
-    </section>
+    </section></ThemeProvider>
     )
 }
 
