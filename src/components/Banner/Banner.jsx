@@ -32,7 +32,6 @@ const theme = createTheme({
 });
 
 const Banner = () => {
-  const year = new Date().getFullYear();
   return (
     <ThemeProvider theme={theme}>
     <Toolbar></Toolbar>
