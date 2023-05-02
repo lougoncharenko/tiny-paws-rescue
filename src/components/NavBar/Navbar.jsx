@@ -29,7 +29,7 @@ export default function Navbar() {
           isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
         }
       >
-               <ul>
+              <ul>
               <li className="nav_item" aria-describedby="nav_item">
                 <NavLink to='/'>Home</NavLink>
               </li>   
